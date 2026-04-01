@@ -17,6 +17,7 @@ setup(
     entry_points={
         "console_scripts": [
             "clawnet-server=clawnet.server:main",
+            "clawnet-server-v2=clawnet.server_v2:main",
         ],
     },
     classifiers=[
